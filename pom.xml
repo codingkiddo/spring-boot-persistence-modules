@@ -12,7 +12,7 @@
 	<artifactId>spring-boot-persistence-modules</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-persistence-modules</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Introduction to Spring Data JPA</description>
 	<url/>
 	<licenses>
 		<license/>
