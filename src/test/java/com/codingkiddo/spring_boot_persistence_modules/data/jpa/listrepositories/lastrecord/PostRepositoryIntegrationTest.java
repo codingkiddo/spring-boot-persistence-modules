@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
+import com.codingkiddo.spring_boot_persistence_modules.spring.data.jpa.listrepositories.lastrecord.Post;
+import com.codingkiddo.spring_boot_persistence_modules.spring.data.jpa.listrepositories.lastrecord.PostRepository;
+
 @DataJpaTest
 public class PostRepositoryIntegrationTest {
 
