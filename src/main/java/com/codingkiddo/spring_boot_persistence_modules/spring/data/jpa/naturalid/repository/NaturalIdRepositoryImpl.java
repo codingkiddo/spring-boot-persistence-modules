@@ -19,7 +19,7 @@ public class NaturalIdRepositoryImpl<T, ID extends Serializable> extends SimpleJ
 	} 
 
 	@Override
-    public Optional<T> naturalId(ID naturalId) {
+    public Optional<T> naturalId(String naturalId) {
         return entityManager.unwrap(Session.class)
             .bySimpleNaturalId(this.getDomainClass())
             .loadOptional(naturalId);

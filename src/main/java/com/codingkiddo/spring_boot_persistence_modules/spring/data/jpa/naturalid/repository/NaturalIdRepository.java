@@ -7,6 +7,5 @@ import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
 public interface NaturalIdRepository<T, ID> extends JpaRepository<T, ID> {
-
-	Optional<T> naturalId(ID id);
+	Optional<T> naturalId(String id);
 }

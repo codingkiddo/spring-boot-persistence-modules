@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import com.codingkiddo.spring_boot_persistence_modules.spring.data.jpa.naturalid.repository.NaturalIdRepositoryImpl;
 
 @Configuration
-@EnableJpaRepositories(repositoryBaseClass = NaturalIdRepositoryImpl.class)
+@EnableJpaRepositories(repositoryBaseClass = NaturalIdRepositoryImpl.class, 
+basePackages = "com.codingkiddo.spring_boot_persistence_modules.spring.data.jpa.naturalid")
 public class NaturalIdRepositoryConfig {
-
 }
